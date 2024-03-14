@@ -2,7 +2,7 @@
 nota = int(input("Digite a sua nota: "))
 if nota >= 6:
     print('Aprovado')
-elif nota < 6 and nota >=4:
+elif nota >=4:
     print('Exame')
 else:
     print('Reprovado')
